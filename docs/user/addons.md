@@ -69,3 +69,14 @@ If you need version 17.0 of Firefox to be installed, add the following to your
 Please note that this downloads binaries that are only compatible with our
 64-bit Linux VMs, so this won't work on our Mac VMs.
 
+### /etc/hosts addon
+
+The hosts addon lets you add more hostnames to the 127.0.0.1 and ::1 records in
+the /etc/hosts file, letting you route network requests for other domains to
+localhost.
+
+    addons:
+      hosts:
+        - "johndoe.local"
+        - "example.com"
+
