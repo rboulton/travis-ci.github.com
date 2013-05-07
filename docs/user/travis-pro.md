@@ -79,7 +79,7 @@ post](http://about.travis-ci.org/blog/announcing-pull-request-support/) accompan
 the launch of pull requests for Travis.
 
 Currently, the only thing you need to do for our trusty travisbot to be able to
-leave comments on your pull requests is to add him as a read-only user to the
+leave comments on your pull requests is to add the "travisbot" user as a read-only user to the
 repositories tested on Travis. These steps aren't necessary for open source
 projects, travisbot loves all of them without any manual intervention.
 
